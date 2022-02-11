@@ -195,22 +195,27 @@ header .titre {
     }
 
     .galerie .cat-1 {
+        background-image: url("image/louvre_tel.jpg");
         grid-area: 1 / 1 / 2 / 2; 
     }
     
     .galerie .cat-2 {
+        background-image: url("image/creation_tel.jpg");
         grid-area: 2 / 1 / 3 / 2;
     }
     
     .galerie .cat-3 {
+        background-image: url("image/journal_tel.jpg");
         grid-area: 1 / 2 / 2 / 3;
     }
     
     .galerie .cat-4 {
+        background-image: url("image/reproduction_tel.jpg");
         grid-area: 2 / 2 / 3 / 3;
     }
     
     .galerie .cat-5 {
+        background-image: url("image/logo_tel.jpg");
         grid-area: 3 / 1 / 4 / 2;
     }
 }
