@@ -169,6 +169,93 @@ header .titre {
     color: white;
 }
 
+/* Bannière message */
+
+.banniere{
+    background-image: url("image/banniere.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4vh 0px 4vh 0px;
+}
+
+.banniere h2{
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+.banniere p{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Contact */
+
+h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-infos{
+    width: 65%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.contact-infos div{
+    width: 15vw;
+    height: 20vw;
+}
+
+.contact-infos div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-infos p{
+    width: 60%;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: #5E94B9;
+}
+
+footer p{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 1200px) {
@@ -218,6 +305,39 @@ header .titre {
         background-image: url("image/logo_tel.jpg");
         grid-area: 3 / 1 / 4 / 2;
     }
+
+    .banniere h2{
+        font-size: 4.2rem;
+    }
+
+    .banniere p{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .contact p{
+        font-size: 1rem;
+    }
+
+    .contact-infos{
+        width: 80%;
+    }
+
+    .contact-infos div{
+        width: 40%;
+        height: 100%;
+    }
+
+    .contact-infos p{
+        font-size: 0.9rem;
+    }
+
+    footer p{
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -265,5 +385,40 @@ header .titre {
 
     .galerie div a{
         font-size: 1.8rem;
+    }
+
+    .banniere h2{
+        font-size: 2.7rem;
+    }
+
+    .banniere p{
+        font-size: 1rem;
+    }
+
+    h3{
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    .contact-infos{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .contact-infos div{
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .contact-infos p{
+        width: 100%;
+        margin: 0;
+        text-indent: 20px;
+        text-align: justify;
+    }
+
+    footer p{
+        font-size: 0.7rem;
     }
 }
