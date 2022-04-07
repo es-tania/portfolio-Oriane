@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <title>Créations</title>
 </head>
 
@@ -39,47 +44,236 @@
         <section class="galerie">
             <div class="galerie-boite">
                 <div class="galerie-image">
-                    <a href="#img-1">
-                        <img src="assets/image/creation.jpg" alt="">
-                    </a>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#img-1">
+                                <img src="assets/image/geisha_1.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#img-2">
+                                <img src="assets/image/geisha_2.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#img-3">
+                                <img src="assets/image/geisha_3.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
-            </div>
-            <div class="galerie-boite">
-                <div class="galerie-image">
-                    <a href="#img-2">
-                        <img src="assets/image/creation.jpg" alt="">
-                    </a>
-                </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
-            </div>
-            <div class="galerie-boite">
-                <div class="galerie-image">
-                    <a href="#img-3">
-                        <img src="assets/image/creation.jpg" alt="">
-                    </a>
-                </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
+                <h3>Geisha</h3>
+                <p>Je me suis inspiré des estampes
+                    japonaise pour réaliser ce buste de
+                    geisha à l’aquarelle et à la plume. Il m’a
+                    semblé pertinent de vous montrer le
+                    processus de création. Pour ne pas
+                    abîmer le papier d’aquarelle avec de
+                    multiples gommages j’ai d’abord réalisé
+                    le croquis sur une feuille, j’ai ensuite
+                    calqué avec une feuille de papier sulfurisé
+                    afin de le décalquer sur ma feuille
+                    d’aquarelle.</p>
             </div>
             <div class="galerie-boite">
                 <div class="galerie-image">
                     <a href="#img-4">
-                        <img src="assets/image/creation.jpg" alt="">
+                        <img src="assets/image/crenaia.jpg" alt="">
                     </a>
                 </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
+                <h3>Crenaia</h3>
+                <p>La figure féminine est inspiré d’un
+                    tableau de Frederic Leighton,
+                    « Crenaia , the Nymph of the
+                    Dargle ». Pour la Sainte j’ai tout
+                    fait au crayon et crayon de
+                    couleur. L’auréole elle est peinte à
+                    part avec de la peinture dorée,
+                    puis je les collais derrière la tête.
+                    La Terre imaginaire et le fond
+                    sont faits à l’aquarelle. Chaque
+                    élément est fait à part et par un
+                    travail de collage je les assemble
+                    pour former une composition.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-5">
+                        <img src="assets/image/ange.jpg" alt="">
+                    </a>
+                </div>
+                <h3>L'ange inachevé</h3>
+                <p>Ce dessin est inachevé car je ne suis pas
+                    satisfaite du corps et de l’expression du
+                    visage. Mais il m’a semblé pertinent de le
+                    mettre dans mon portfolio car l’idée
+                    derrière ce dessin illustre mon univers.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-6">
+                        <img src="assets/image/diptyque.jpg" alt="">
+                    </a>
+                </div>
+                <h3>Diptyque Marilyn</h3>
+                <p>Lors d’un projet scolaire en classe de français
+                    nous devions réaliser une anthologie
+                    poétique sur un thème. J’ai choisi de faire un
+                    recueil entièrement à la main (jusqu’à la
+                    reliure) sur le thème de la poésie imaginaire.
+                    J’ai sélectionné cette illustration de mon
+                    recueil car c’est ma préférée de même
+                    pour le poème. Je me suis inspiré d’Andy
+                    Warhol et tout particulièrement du
+                    « Diptyque Marilyn ».</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-7">
+                        <img src="assets/image/archange.jpg" alt="">
+                    </a>
+                </div>
+                <h3>L’Archange</h3>
+                <p>Illustration inachevée de l’Archange Saint
+                    Michel. Il illustre une partie de mon carnet sur
+                    le culte de ce dernier. Il m’a semblé intéressant
+                    de l’ajouter malgré son statut en cours, cela
+                    ajoute de la figure masculine dans mon
+                    portfolio. Vous noterez que j’ai pris des libertés
+                    car est doté de trois paires d’ailes comme
+                    les séraphins au lieu de deux pour les
+                    archanges.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-8">
+                        <img src="assets/image/figure.jpg" alt="">
+                    </a>
+                </div>
+                <h3>Deux figures</h3>
+                <p>Croquis inachevé mais pertinent car met en scène
+                    deux figures au lieu d’une comme j’ai l’habitude
+                    de faire.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-9">
+                        <img src="assets/image/femme.jpg" alt="">
+                    </a>
+                </div>
+                <h3>La femme de la pensée</h3>
+                <p>Simple croquis où j’ai essayé de dessiner un
+                    corps de femme par la simple utilisation de
+                    ma mémoire et de mon imagination.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-10">
+                        <img src="assets/image/accompli.jpg" alt="">
+                    </a>
+                </div>
+                <h3>Accomplissement</h3>
+                <p>Dessin inachevé mais accomplit pour moi. Je
+                    préfère le laisser à ce stade. J’ai une affection
+                    toute particulière pour celui ci.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-11">
+                        <img src="assets/image/vent.jpg" alt="">
+                    </a>
+                </div>
+                <h3>Cheveux au vent</h3>
+                <p>Dessin terminé. J’aime sur une majorité de mes
+                dessins repasser au noir les traits extérieurs et de les
+                faire ressortir comme pour les figures sur les vitraux.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-12">
+                        <img src="assets/image/christ.jpg" alt="">
+                    </a>
+                </div>
+                <h3>Christ en croix</h3>
+                <p>Très vieux dessins inachevé, mais il est intéressant
+                    pour sa mise en scène et son décor. J’ai voulu
+                    revisiter le Christ en croix avec un ange féminin.
+                    On notera la récurrence de la pyramide avec l'oeil
+                    dans mes dessins, symbolisant la Sainte Trinité et
+                    l’oeil omniscient du père. Également dans le
+                    décor, des végétaux stylisé, j’y ai illustré des fleurs
+                    de lotus inspiré de l’art antique égyptiens.</p>
+            </div>
+            <!-- Vidéo -->
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <video width="100%" height="100%" controls>
+                        <source src="assets/video/intro_docu.mp4" type=video/mp4>
+                      </video>
+                </div>
+                <h3>Intro TPE</h3>
+                <p>En première nous devions faire un TPE. Étant en première
+                    scientifique nous devions présenter un projet
+                    mélangeant deux matières, dans mon cas ce
+                    fût la physique chimie et la SVT. Nous avons
+                    donc à deux, une amie et moi réalisés un
+                    documentaire de 45min sur la terraformation.
+                    J’y ai donc inclus dans mon portfolio deux
+                    extraits favoris que j’ai montés moi même.<br>
+                    J’aime beaucoup cet extrait qui est le
+                    générique car j’ai intégré des archives
+                    d’époque de la course à l’espace. Dont des
+                    extraits de Apollon 11 et de la mission Vostok
+                    1 avec Youri Gagarine.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <video width="100%" height="100%" controls>
+                        <source src="assets/video/scene_final.mp4" type=video/mp4>
+                      </video>
+                </div>
+                <h3>Extrait final TPE</h3>
+                <p>Ce deuxième extrait est la conclusion du
+                    documentaire. J’aime beaucoup ce passage
+                    car j’y ai pu mettre des extraits de film de
+                    science fiction soviétique et de Kubrick.
+                    Également la musique de fin est bien
+                    trouvée. Pour info c’est moi qui suis la voix
+                    off.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <video width="100%" height="100%" controls>
+                        <source src="assets/video/voyage_a_rome_2.mp4" type=video/mp4>
+                      </video>
+                </div>
+                <h3>Voyage à Rome</h3>
+                <p>Dans cet extrait il n’y a que le générique qui devait
+                    ouvrir la vidéo du voyage à Rome avec ma classe de
+                    grec ancien et des latinistes. Ce voyage est très
+                    important car je suis tombé sous le charme de
+                    l’éternel Rome. Et cette cité est une source
+                    d’inspiration.</p>
             </div>
 
         </section>
@@ -90,7 +284,7 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/creation.jpg" alt="">
+                    <img src="assets/image/geisha_1.jpg" alt="">
                     <br>
                 </div>
             </div>
@@ -99,7 +293,7 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/creation.jpg" alt="">
+                    <img src="assets/image/geisha_2.jpg" alt="">
                     <br>
                 </div>
             </div>
@@ -108,7 +302,7 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/creation.jpg" alt="">
+                    <img src="assets/image/geisha_3.jpg" alt="">
                     <br>
                 </div>
             </div>
@@ -117,7 +311,79 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/creation.jpg" alt="">
+                    <img src="assets/image/crenaia.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-5">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/ange.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-6">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/diptyque.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-7">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/archange.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-8">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/figure.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-9">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/femme.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-10">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/accompli.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-11">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/vent.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-12">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/christ.jpg" alt="">
                     <br>
                 </div>
             </div>
