@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles.css">
-    <title>Journal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <title>Sculpture</title>
 </head>
 
 <body>
@@ -15,7 +20,7 @@
             <img src="../assets/fleche.png" alt="">
             <p>Revenir à l'accueil</p>
         </a>
-        <h1>Journal</h1>
+        <h1>Sculpture</h1>
         <h2>Explication du projet</h2>
         <p>La catégorie sculpture compile
             également de la poterie. J’ai
@@ -35,46 +40,132 @@
             <div class="galerie-boite">
                 <div class="galerie-image">
                     <a href="#img-1">
-                        <img src="assets/image/journal.jpg" alt="">
+                        <img src="assets/image/sculpture_1.jpg" alt="">
                     </a>
                 </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
+                <h3>Pot d'or</h3>
+                <p>Pot de fleurs, bleu et or. Pour donner cet effet
+                    d’usure j’ai d’abord fait une première couche
+                    de bleu puis une deuxième avec de la peinture
+                    couleur or avec un pinceau sec.</p>
             </div>
             <div class="galerie-boite">
                 <div class="galerie-image">
-                    <a href="#img-2">
-                        <img src="assets/image/journal.jpg" alt="">
-                    </a>
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#img-2">
+                                    <img src="assets/image/sculpture_2.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#img-3">
+                                    <img src="assets/image/sculpture_3.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
+                <h3>Buste de femme</h3>
+                <p>Vase a la forme d’un tronc de
+                    femme, bleu avec des reflets or.</p>
             </div>
             <div class="galerie-boite">
                 <div class="galerie-image">
-                    <a href="#img-3">
-                        <img src="assets/image/journal.jpg" alt="">
-                    </a>
+                    <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#img-4">
+                                    <img src="assets/image/sculpture_4.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#img-5">
+                                    <img src="assets/image/sculpture_5.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
+                <h3>Pot clair</h3>
+                <p>Vase visage de femme, beige et blanc.</p>
             </div>
             <div class="galerie-boite">
                 <div class="galerie-image">
-                    <a href="#img-4">
-                        <img src="assets/image/journal.jpg" alt="">
+                    <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#img-6">
+                                    <img src="assets/image/sculpture_6.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#img-7">
+                                    <img src="assets/image/sculpture_7.jpg" class="d-block w-100" alt="...">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <h3>Le diable qui bronze</h3>
+                <p>Petite figurine de diable se prélassant au soleil.</p>
+            </div>
+            <div class="galerie-boite">
+                <div class="galerie-image">
+                    <a href="#img-8">
+                        <img src="assets/image/sculpture_8.jpg" alt="">
                     </a>
                 </div>
-                <h3>Titre</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, corporis tempore sapiente quis soluta
-                    fuga voluptatum molestias tempora sed debitis facilis optio molestiae porro quam possimus nihil
-                    voluptas distinctio aliquam.</p>
+                <h3>Bob et sa branche</h3>
+                <p>Petite figurine qui se nomme Bob.</p>
             </div>
 
         </section>
@@ -85,7 +176,7 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/journal.jpg" alt="">
+                    <img src="assets/image/sculpture_1.jpg" alt="">
                     <br>
                 </div>
             </div>
@@ -94,7 +185,7 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/journal.jpg" alt="">
+                    <img src="assets/image/sculpture_2.jpg" alt="">
                     <br>
                 </div>
             </div>
@@ -103,7 +194,7 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/journal.jpg" alt="">
+                    <img src="assets/image/sculpture_3.jpg" alt="">
                     <br>
                 </div>
             </div>
@@ -112,7 +203,43 @@
                     <a href="#!" aria-label="fermer la photo"></a>
                 </div>
                 <div class="modal-photo">
-                    <img src="assets/image/journal.jpg" alt="">
+                    <img src="assets/image/sculpture_4.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-5">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/sculpture_5.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-6">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/sculpture_6.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-7">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/sculpture_7.jpg" alt="">
+                    <br>
+                </div>
+            </div>
+            <div class="popup-photo" id="img-8">
+                <div class="modal-close">
+                    <a href="#!" aria-label="fermer la photo"></a>
+                </div>
+                <div class="modal-photo">
+                    <img src="assets/image/sculpture_8.jpg" alt="">
                     <br>
                 </div>
             </div>

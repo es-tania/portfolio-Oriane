@@ -136,7 +136,7 @@ header .titre {
 }
 
 .galerie .cat-3 {
-    background-image: url("image/journal.jpg");
+    background-image: url("image/sculpture.jpg");
     grid-area: 1 / 2 / 3 / 3;
 }
 
@@ -278,7 +278,7 @@ footer p{
     }
     
     .galerie .cat-3 {
-        background-image: url("image/journal.jpg");
+        background-image: url("image/sculpture.jpg");
         grid-area: 1 / 2 / 2 / 3;
     }
     
